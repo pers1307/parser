@@ -81,3 +81,11 @@ foreach($hrefText as $hrefTextItem) {	//избавляемся от ссылок
 $clearHrefs = array_unique($clearHrefs);	//избавляемся от одинаковых ссылок
 
 print_r($clearHrefs);	// в итоге у нас массив со всем ссылками с 3х страниц
+
+/**
+ * http://i-novice.net/parsim-sajty-s-phpquery/
+ * http://pizdo.biz/parsing-tovarov-s-internet-magazina-pri-pomoshhi-phpquery-175
+ * http://ru.stackoverflow.com/questions/165657/%D0%9F%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82%D0%B0-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-phpquery
+ * http://blogocms.ru/2012/08/parsim-html-s-pomoshhyu-phpquery/
+ *
+ */
